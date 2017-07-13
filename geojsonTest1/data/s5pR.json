@@ -1,0 +1,15 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"id": "1",
+				"name": "4 point outer"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [[[-107, 44], [-109,43], [-108, 41], [-107, 41], [-104, 42], [-105, 44], [-107, 44]], [[-106, 43], [-105, 43], [-105, 42], [-107, 42],  [-106, 43]]]
+			}
+		}
+	]
+}

@@ -12,6 +12,14 @@
 		FC14176B1F18290500547C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1417691F18290500547C19 /* Main.storyboard */; };
 		FC14176D1F18290500547C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14176C1F18290500547C19 /* Assets.xcassets */; };
 		FC1417701F18290500547C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14176E1F18290500547C19 /* LaunchScreen.storyboard */; };
+		FC14177A1F18299300547C19 /* va_pw.sld in Resources */ = {isa = PBXBuildFile; fileRef = FC1417791F18299300547C19 /* va_pw.sld */; };
+		FC1417821F18299C00547C19 /* elkhornsR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC14177B1F18299C00547C19 /* elkhornsR.json */; };
+		FC1417831F18299C00547C19 /* pfishR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC14177C1F18299C00547C19 /* pfishR.json */; };
+		FC1417841F18299C00547C19 /* s5pR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC14177D1F18299C00547C19 /* s5pR.json */; };
+		FC1417851F18299C00547C19 /* s7pR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC14177E1F18299C00547C19 /* s7pR.json */; };
+		FC1417861F18299C00547C19 /* starfishR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC14177F1F18299C00547C19 /* starfishR.json */; };
+		FC1417871F18299C00547C19 /* va_pw1R.json in Resources */ = {isa = PBXBuildFile; fileRef = FC1417801F18299C00547C19 /* va_pw1R.json */; };
+		FC1417881F18299C00547C19 /* va_pwR.json in Resources */ = {isa = PBXBuildFile; fileRef = FC1417811F18299C00547C19 /* va_pwR.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		FC14176C1F18290500547C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC14176F1F18290500547C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1417711F18290500547C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1417791F18299300547C19 /* va_pw.sld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = va_pw.sld; path = styles/va_pw.sld; sourceTree = "<group>"; };
+		FC14177B1F18299C00547C19 /* elkhornsR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = elkhornsR.json; path = data/elkhornsR.json; sourceTree = "<group>"; };
+		FC14177C1F18299C00547C19 /* pfishR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pfishR.json; path = data/pfishR.json; sourceTree = "<group>"; };
+		FC14177D1F18299C00547C19 /* s5pR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = s5pR.json; path = data/s5pR.json; sourceTree = "<group>"; };
+		FC14177E1F18299C00547C19 /* s7pR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = s7pR.json; path = data/s7pR.json; sourceTree = "<group>"; };
+		FC14177F1F18299C00547C19 /* starfishR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = starfishR.json; path = data/starfishR.json; sourceTree = "<group>"; };
+		FC1417801F18299C00547C19 /* va_pw1R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = va_pw1R.json; path = data/va_pw1R.json; sourceTree = "<group>"; };
+		FC1417811F18299C00547C19 /* va_pwR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = va_pwR.json; path = data/va_pwR.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 		FC1417641F18290500547C19 /* geojsonTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				FC1417781F18292E00547C19 /* styles */,
+				FC1417771F18292500547C19 /* data */,
 				FC1417651F18290500547C19 /* AppDelegate.swift */,
 				FC1417671F18290500547C19 /* ViewController.swift */,
 				FC1417691F18290500547C19 /* Main.storyboard */,
@@ -62,6 +80,28 @@
 				FC1417711F18290500547C19 /* Info.plist */,
 			);
 			path = geojsonTest1;
+			sourceTree = "<group>";
+		};
+		FC1417771F18292500547C19 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FC14177B1F18299C00547C19 /* elkhornsR.json */,
+				FC14177C1F18299C00547C19 /* pfishR.json */,
+				FC14177D1F18299C00547C19 /* s5pR.json */,
+				FC14177E1F18299C00547C19 /* s7pR.json */,
+				FC14177F1F18299C00547C19 /* starfishR.json */,
+				FC1417801F18299C00547C19 /* va_pw1R.json */,
+				FC1417811F18299C00547C19 /* va_pwR.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		FC1417781F18292E00547C19 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				FC1417791F18299300547C19 /* va_pw.sld */,
+			);
+			name = styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +164,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1417821F18299C00547C19 /* elkhornsR.json in Resources */,
 				FC1417701F18290500547C19 /* LaunchScreen.storyboard in Resources */,
+				FC1417841F18299C00547C19 /* s5pR.json in Resources */,
 				FC14176D1F18290500547C19 /* Assets.xcassets in Resources */,
+				FC1417831F18299C00547C19 /* pfishR.json in Resources */,
+				FC1417851F18299C00547C19 /* s7pR.json in Resources */,
+				FC1417871F18299C00547C19 /* va_pw1R.json in Resources */,
+				FC1417881F18299C00547C19 /* va_pwR.json in Resources */,
+				FC1417861F18299C00547C19 /* starfishR.json in Resources */,
 				FC14176B1F18290500547C19 /* Main.storyboard in Resources */,
+				FC14177A1F18299300547C19 /* va_pw.sld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
